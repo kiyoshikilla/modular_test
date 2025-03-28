@@ -11,3 +11,13 @@ def filter_lines(input_filename, output_filename, keyword):
     except Exception as e:
         print(f"Сталася помилка: {e}")
         return False
+    
+if __name__ == "__main__":
+    input_file = r"D:\module_cicd\strings.txt"  # Вхідний файл
+    output_file = r"D:\module_cicd\filtered.txt"  # Вихідний файл
+    keyword = "walking"  # Ключове слово для пошуку
+
+    if filter_lines(input_file, output_file, keyword):
+        print(f"Фільтрація завершена! Результат збережено у '{output_file}'.")
+    else:
+        print("Сталася помилка під час фільтрації.")
