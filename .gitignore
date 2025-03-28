@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+*.virtualenv
+*.env
+venv/
+ENV/
+env/
+*.db
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Pytest cache
+.pytest_cache/
+
+# flake8
+.flake8
+
+# mypy
+.mypy_cache/
+
+# PyInstaller
+*.spec
+
+# JetBrains
+.idea/
+
+# System files
+Desktop.ini
